@@ -21,7 +21,7 @@ namespace Discord_ServiceManager
             {
                 if (s == "--help" || s == "-h")
                 {
-                    Console.WriteLine("Usage: DiscordMinesweeper [config]");
+                    Console.WriteLine("Usage: Discord-ServiceManager [config]");
                     Console.WriteLine("If not provided, the bot will search for \"config.toml\"");
                     Console.WriteLine("The config file is a TOML file, with 1 namespace (\"config\"), containing 2 values, \"token\" and \"command\"");
                     return;
