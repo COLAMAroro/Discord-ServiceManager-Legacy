@@ -1,0 +1,16 @@
+﻿[config]
+
+#Enter your token here
+token = "YourToken"
+
+#Choose your command to trigger the bot. Use "@" for mention
+command = "@"
+
+#Exemples of services. Use User ID of user to add to the whishlist
+[services]
+	[services.somebot]
+		name = "SomeBot"
+		whitelist = [128819350088974336]
+	[services.someservice]
+		name = "SomeService"
+		whitelist = [128819350088974336]
